@@ -5,6 +5,7 @@ class MainPresenter(
 ) : MainContract.Presenter {
 
     override fun start() {
+        view.showTitleName()
         view.showInputName()
         view.hideName()
     }
