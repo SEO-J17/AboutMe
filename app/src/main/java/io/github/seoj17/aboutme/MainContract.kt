@@ -2,6 +2,8 @@ package io.github.seoj17.aboutme
 
 class MainContract {
     interface View {
+        fun showTitleName()
+
         fun showInputName()
 
         fun hideInputName()
